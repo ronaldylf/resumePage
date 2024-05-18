@@ -1,0 +1,10 @@
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__imagens {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10% 0;
+}
