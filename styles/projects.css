@@ -5,6 +5,13 @@
 
 .apresentacao__conteudo__imagens {
     display: flex;
-    justify-content: space-between;
+    gap: 66px;
     margin: 0 0 10% 0;
+}
+
+@media(max-width: 1200px) {
+    .apresentacao__conteudo__imagens {
+        flex-direction: column;
+        gap: 32px;
+    }
 }
